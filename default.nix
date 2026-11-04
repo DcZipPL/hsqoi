@@ -4,7 +4,6 @@
 #
 # Or in nix-shell:
 #   nix-shell
-#   hpack
 #   cabal run hsqoi-exe -- …args…
 #
 # Profile the build:
@@ -61,7 +60,6 @@ in
 
     buildInputs = [
       hsPkgs.cabal-install
-      hsPkgs.hpack # To compile package.yaml to *.cabal
       llvm
     ];
   };

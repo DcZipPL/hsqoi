@@ -1,7 +1,6 @@
-.stack-work/
-dist*
+dist-newstyle/
+cabal.project.local*
 *~
-*.cabal
 
 # Profiling reports
 *.prof
